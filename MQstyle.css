@@ -1,0 +1,139 @@
+@media screen and (max-width: 1200px) {
+    .main2,
+    .main5 {
+        padding: 60px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main2,
+    .main5 {
+        padding: 30px;
+    }
+    .main6 p {
+        top: 85%;
+    }
+    .main7 p {
+        top: 85%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .main2,
+    .main5 {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .imgdesktop {
+        display: none;
+    }
+    .imgmobile {
+        display: inline;
+    }
+    .main {
+        grid-template-columns: 100%;
+        grid-template-areas: "main1" "main3" "main2" "main4" "main5" "main6" "main7" "main8" "main9" "footer";
+    }
+    .main2,
+    .main5 {
+        padding: 50px 30px;
+        text-align: center;
+    }
+    .main2 hr,
+    .main5 hr {
+        margin: -7px auto 0px;
+    }
+    .main6 p {
+        top: 75%;
+        line-height: 30px;
+    }
+    .main7 p {
+        top: 75%;
+        line-height: 30px;
+    }
+    .main8 .clients-container {
+        display: grid;
+        grid-row-gap: 70px;
+    }
+    .main9 img {
+        width: 50%;
+    }
+    .main9 {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .main1 h1 {
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .navigation {
+        display: none;
+        text-align: center;
+        padding: 30px 15px;
+        height: auto;
+    }
+    .navigation li {
+        margin: 10px;
+    }
+    .navigation li a {
+        color: hsl(210, 4%, 67%);
+        font-size: 18px;
+    }
+    .navigation li a:hover {
+        color: hsl(220, 2%, 32%);
+    }
+    .navigation li:last-child a {
+        background-color: hsl(51, 100%, 49%);
+        color: hsl(212, 27%, 19%);
+        font-size: 18px;
+        padding: 0px 30px;
+    }
+    .navigation li:last-child a:hover {
+        color: hsl(212, 27%, 19%);
+        background-color: hsl(51, 100%, 49%, 0.5);
+    }
+    .navigation.show {
+        display: grid;
+        position: absolute;
+        background-color: #fff;
+        right: 30px;
+        top: 100px;
+    }
+    .hamburger {
+        height: 100%;
+        display: table;
+        float: right;
+        padding-right: 30px;
+    }
+    .hamburger span {
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .hamburger img {
+        height: 24px;
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .main1 .icon-arrow {
+        margin: 60px auto 0px;
+    }
+}
+
+@media screen and (max-width: 508px) {
+    .main6 p {
+        top: 85%;
+        width: 300px;
+    }
+    .main7 p {
+        width: 300px;
+        top: 78%;
+    }
+}

@@ -1,0 +1,392 @@
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    background-color: #fffbf8;
+}
+
+.imgmobile {
+    display: none;
+}
+
+.sm-img2 {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+details {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+    font-family: 'Fraunces', serif;
+    text-decoration: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+/* HEADER */
+
+.header {
+    position: relative;
+    width: 100%;
+    background-color: #3ebfff;
+    display: block;
+}
+
+.inner-header {
+    max-width: 1000px;
+    margin: 0px auto;
+    display: block;
+    height: 100px;
+}
+
+.logo {
+    height: 100%;
+    display: table;
+    float: left;
+    padding-left: 20px;
+}
+
+.logo span {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo img {
+    height: 32px;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation li {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    margin-top: 0px;
+}
+
+.navigation li a {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navigation li:last-child a {
+    font-family: 'Fraunces', serif;
+    background-color: #fff;
+    color: hsl(212, 27%, 19%);
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.navigation li:last-child a:hover {
+    color: #fff;
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+.navigation li:last-child {
+    height: 50px;
+    width: 120px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+/* HEADER */
+
+
+/* MAIN CONTENT */
+
+.main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: minmax(100px, auto);
+    grid-row-gap: 0px;
+    grid-column-gap: 0px;
+    margin: 0px;
+    grid-template-areas: "main1 main1" "main2 main3" "main4 main5" "main6 main7" "main8 main8" "main9 main9" "footer footer";
+}
+
+.main1 {
+    grid-area: main1;
+    margin: 0px;
+    height: 600px;
+    background-image: url(images/desktop/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    text-align: center;
+}
+
+.main1 img {
+    display: none;
+}
+
+.main1 h1 {
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 10px;
+    margin: 100px auto 60px;
+}
+
+.main1 .icon-arrow {
+    display: block;
+    width: 30px;
+    height: 100px;
+    margin: 100px auto 0px;
+}
+
+.main2 {
+    grid-area: main2;
+    margin: 0px;
+    left: 0px;
+    padding: 100px;
+}
+
+.part-header {
+    font-size: 42px;
+    color: hsl(212, 27%, 19%);
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.part-paragraph {
+    color: hsl(210, 4%, 67%);
+    font-size: 17px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.learn-more {
+    color: hsl(212, 27%, 19%);
+    font-weight: 900;
+}
+
+.learn-more hr {
+    width: 125px;
+    margin-left: -5px;
+    margin-top: -7px;
+    z-index: -10;
+    color: hsl(51, 100%, 49%);
+    height: 10px;
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 10px;
+    border: none;
+}
+
+.main3 {
+    grid-area: main3;
+    margin: 0px;
+}
+
+.main3 img {
+    width: 100%;
+}
+
+.main4 {
+    grid-area: main4;
+    margin: -3px 0px 0px;
+}
+
+.main4 img {
+    width: 100%;
+}
+
+.main5 {
+    grid-area: main5;
+    margin: 0px;
+    padding: 100px;
+}
+
+.main5 hr {
+    background-color: hsl(7, 99%, 70%);
+}
+
+.main6 {
+    grid-area: main6;
+    margin: 0px;
+    margin-top: -3px;
+    text-align: center;
+    position: relative;
+    color: hsl(167, 40%, 24%);
+}
+
+.main6 img {
+    width: 100%;
+}
+
+.main6 h3 {
+    position: absolute;
+    z-index: 10;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.main6 p {
+    position: absolute;
+    z-index: 10;
+    font-size: 17px;
+    width: 400px;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main7 {
+    grid-area: main7;
+    margin: 0px;
+    margin-top: -3px;
+    text-align: center;
+    position: relative;
+    color: hsl(198, 62%, 26%);
+}
+
+.main7 img {
+    width: 100%;
+}
+
+.main7 h3 {
+    position: absolute;
+    z-index: 10;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.main7 p {
+    position: absolute;
+    z-index: 10;
+    font-size: 17px;
+    width: 400px;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main8 {
+    grid-area: main8;
+    margin: 0px;
+    text-align: center;
+    padding: 130px 70px;
+}
+
+.main8 h3 {
+    font-weight: 900;
+    letter-spacing: 5px;
+    color: hsl(210, 4%, 67%);
+    margin-bottom: 80px;
+}
+
+.main8 .clients-container {
+    display: flex;
+}
+
+.client img {
+    height: 70px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+}
+
+.client p {
+    padding: 0px 20px;
+    margin-bottom: 80px;
+    color: hsl(232, 10%, 55%);
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.client h4 {
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+    margin-bottom: 15px;
+}
+
+.client span {
+    color: hsl(210, 4%, 67%);
+}
+
+.main9 {
+    grid-area: main9;
+    margin: 0px;
+    display: flex;
+}
+
+.main9 img {
+    width: 25%;
+}
+
+.footer {
+    grid-area: footer;
+    margin: 0px;
+    color: hsl(167, 40%, 24%);
+    background-color: #90d4c5;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.footer .footer-logo {
+    height: 32px;
+    margin-bottom: 30px;
+}
+
+.footer-nav a {
+    color: hsl(168, 34%, 41%);
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.footer-nav a:hover {
+    color: #fff;
+}
+
+.social-media {
+    margin-top: 60px;
+}
+
+.social-media a {
+    margin: 10px;
+}
+
+.social-media a:hover .sm-img {
+    display: none;
+}
+
+.social-media a:hover .sm-img2 {
+    display: inline;
+}
